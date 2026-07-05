@@ -1,0 +1,32 @@
+{
+  "dump_version": "2026-07-05",
+  "source_commit": "696791251ab59290c1fe15f6a70861cf61f42323",
+  "generated_at": "2026-07-05T08:04:28Z",
+  "generator": "scripts/export-kb-dump.py (sq-tzars.8) [SONNET-4.6]",
+  "note": "The LICENSE-RESTRICTED tier is never exported. Only its metadata-only public projection (source IRI + title + year + licence status; no abstract-derived text) is included. This repo is PRIVATE until the maintainer reviews the tier-enforcement guarantees and explicitly flips visibility.",
+  "tier_semantics": {
+    "hand-authored": "Human-curated PKG data: task projections from bd + skill front-matter + hand-authored AGENTS.md findings (ingest_pkg.py output).",
+    "machine": "Literature pipeline output for sources with a known redistributable licence (CC-BY, CC0, public-domain). Machine-tier findings are capped at confidence \u2264 0.7 and assurance \u2264 Conjectured.",
+    "restricted-projection": "Metadata-only public view of the license-restricted tier: source IRI, title, year, and licence status only. No abstract-derived text."
+  },
+  "files": [
+    {
+      "filename": "pkg-ontology.ttl.gz",
+      "tier": "ontology",
+      "license_class": "public",
+      "graph_iri": "https://sparq.dev/ns/pkg#",
+      "triple_count": 195,
+      "source_sha256": "sha256:ce7ea3818da2f1ac0f1132e4d8bd7300279f21fb71faeae87a6de5507c7ef464",
+      "compressed_bytes": 6986
+    },
+    {
+      "filename": "pkg-hand-authored.ttl.gz",
+      "tier": "hand-authored",
+      "license_class": "public",
+      "graph_iri": "https://sparq.dev/ns/pkg/graph#hand-authored",
+      "triple_count": 10750,
+      "source_sha256": "sha256:92b6867e8563588d0508ed8866cb9fc7e843f10178e765ab327c798caff3a1f0",
+      "compressed_bytes": 102310
+    }
+  ]
+}
