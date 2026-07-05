@@ -1,7 +1,7 @@
 {
   "dump_version": "2026-07-05",
-  "source_commit": "696791251ab59290c1fe15f6a70861cf61f42323",
-  "generated_at": "2026-07-05T08:04:28Z",
+  "source_commit": "bc103d56f74954ab02e0de88a9769033188ede73",
+  "generated_at": "2026-07-05T08:28:51Z",
   "generator": "scripts/export-kb-dump.py (sq-tzars.8) [SONNET-4.6]",
   "note": "The LICENSE-RESTRICTED tier is never exported. Only its metadata-only public projection (source IRI + title + year + licence status; no abstract-derived text) is included. This repo is PRIVATE until the maintainer reviews the tier-enforcement guarantees and explicitly flips visibility.",
   "tier_semantics": {
@@ -24,7 +24,7 @@
       "tier": "hand-authored",
       "license_class": "public",
       "graph_iri": "https://sparq.dev/ns/pkg/graph#hand-authored",
-      "triple_count": 10750,
+      "triple_count": 10706,
       "source_sha256": "sha256:92b6867e8563588d0508ed8866cb9fc7e843f10178e765ab327c798caff3a1f0",
       "compressed_bytes": 102310
     }
