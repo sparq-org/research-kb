@@ -2,8 +2,8 @@
   "dump_version": "2026-07-05",
   "source_commit": "bc103d56f74954ab02e0de88a9769033188ede73",
   "generated_at": "2026-07-05T08:28:51Z",
-  "generator": "scripts/export-kb-dump.py (sq-tzars.8) [SONNET-4.6]",
-  "note": "The LICENSE-RESTRICTED tier is never exported. Only its metadata-only public projection (source IRI + title + year + licence status; no abstract-derived text) is included. This repo is PRIVATE until the maintainer reviews the tier-enforcement guarantees and explicitly flips visibility.",
+  "generator": "scripts/export-kb-dump.py (sq-tzars.8)",
+  "note": "The LICENSE-RESTRICTED tier is never exported. Only its metadata-only public projection (source IRI + title + year + licence status; no abstract-derived text) is included.",
   "tier_semantics": {
     "hand-authored": "Human-curated PKG data: task projections from bd + skill front-matter + hand-authored AGENTS.md findings (ingest_pkg.py output).",
     "machine": "Literature pipeline output for sources with a known redistributable licence (CC-BY, CC0, public-domain). Machine-tier findings are capped at confidence \u2264 0.7 and assurance \u2264 Conjectured.",
