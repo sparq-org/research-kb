@@ -12,11 +12,10 @@ engineering decisions, tool findings, and task data.
 
 ## Repository status
 
-**PRIVATE** — this repository is intentionally private until the maintainer has
-reviewed the tier-enforcement guarantees (zero restricted-tier content or secrets in
-public artifacts) and explicitly flips visibility.  The mechanical leak check is
-implemented in `scripts/export-kb-dump.py` and is run as a mandatory gate on every
-dump before push.
+This repository holds only tiers that are cleared for public release (the
+ontology and the hand-authored tier). The mechanical leak check in
+`scripts/export-kb-dump.py` (sparq repo) runs as a mandatory gate on every dump
+before push, and the license-restricted tier is never exported.
 
 ---
 
@@ -75,4 +74,4 @@ and `tier_semantics` for a plain-English description of each tier's provenance.
 ## Attribution
 
 Built by the [sparq](https://github.com/sparq-org/sparq) agent pipeline.
-🤖 SPARQ agent · [sq-tzars.8] · `scripts/export-kb-dump.py` · `[SONNET-4.6]`
+🤖 SPARQ agent · [sq-tzars.8] · `scripts/export-kb-dump.py`
